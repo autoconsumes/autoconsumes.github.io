@@ -1,0 +1,1197 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://autoconsumes.github.io/Viabilidad_Economica/">
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+    
+    
+      
+        <title>Estudio de Viabilidad - E3. Estudios de Eficiencia Energetica.</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.802231af.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../css/pandas-dataframe.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#estudio-de-viabilidad" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="E3. Estudios de Eficiencia Energetica." class="md-header__button md-logo" aria-label="E3. Estudios de Eficiencia Energetica." data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            E3. Estudios de Eficiencia Energetica.
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Estudio de Viabilidad
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpiar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="E3. Estudios de Eficiencia Energetica." class="md-nav__button md-logo" aria-label="E3. Estudios de Eficiencia Energetica." data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    E3. Estudios de Eficiencia Energetica.
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anexo_IV_Ejemplos/" class="md-nav__link">
+        Mecanismo de compensación de excedentes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Factura_Luz/" class="md-nav__link">
+        Factura de la luz
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Instalacion_BATERIAS/" class="md-nav__link">
+        Instalacion BATERIAS
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Instalacion_FV/" class="md-nav__link">
+        Instalacion FV.
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Estudio de Viabilidad
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Estudio de Viabilidad
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informes" class="md-nav__link">
+    Informes
+  </a>
+  
+    <nav class="md-nav" aria-label="Informes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informe-viabilidad-economica" class="md-nav__link">
+    Informe VIABILIDAD ECONÓMICA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#valor-tiempo-del-dinero" class="md-nav__link">
+    Valor tiempo del dinero
+  </a>
+  
+    <nav class="md-nav" aria-label="Valor tiempo del dinero">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculos" class="md-nav__link">
+    Cálculos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formulas" class="md-nav__link">
+    Fórmulas
+  </a>
+  
+    <nav class="md-nav" aria-label="Fórmulas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-suma-futura" class="md-nav__link">
+    Valor presente de una suma futura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-anualidad-para-n-periodos-de-pago" class="md-nav__link">
+    Valor presente de una anualidad para n periodos de pago
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-anualidad-creciente" class="md-nav__link">
+    Valor presente de una anualidad creciente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-perpetuidad" class="md-nav__link">
+    Valor presente de una perpetuidad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-perpetuidad-creciente" class="md-nav__link">
+    Valor presente de una perpetuidad creciente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-futuro-de-una-anualidad" class="md-nav__link">
+    Valor futuro de una anualidad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-futuro-de-una-anualidad-creciente" class="md-nav__link">
+    Valor futuro de una anualidad creciente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-caja" class="md-nav__link">
+    Flujo de caja
+  </a>
+  
+    <nav class="md-nav" aria-label="Flujo de caja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elaborar-un-flujo-de-caja" class="md-nav__link">
+    Elaborar un flujo de caja
+  </a>
+  
+    <nav class="md-nav" aria-label="Elaborar un flujo de caja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculo-del-flujo-de-caja-personal" class="md-nav__link">
+    Cálculo del flujo de caja personal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejora-del-flujo-de-caja" class="md-nav__link">
+    Mejora del flujo de caja
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nopcaf" class="md-nav__link">
+    NOPCAF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flujo-de-financiacion" class="md-nav__link">
+    Flujo de financiación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#valor-actual-neto" class="md-nav__link">
+    Valor actual neto
+  </a>
+  
+    <nav class="md-nav" aria-label="Valor actual neto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    Interpretación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tasa-interna-de-retorno" class="md-nav__link">
+    Tasa interna de retorno
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasa interna de retorno">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#otras-definiciones" class="md-nav__link">
+    Otras Definiciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-de-la-tasa-interna-de-retorno" class="md-nav__link">
+    Cálculo de la Tasa Interna de Retorno
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-general-de-la-tir" class="md-nav__link">
+    Uso general de la TIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dificultades-en-el-uso-de-la-tir" class="md-nav__link">
+    Dificultades en el uso de la TIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    Ejemplo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion_1" class="md-nav__link">
+    Interpretación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referencias
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app/" class="md-nav__link">
+        Funcionamiento de la aplicacion
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../instalacion_EOLICA/" class="md-nav__link">
+        Instalacion EOLICA
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informes" class="md-nav__link">
+    Informes
+  </a>
+  
+    <nav class="md-nav" aria-label="Informes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informe-viabilidad-economica" class="md-nav__link">
+    Informe VIABILIDAD ECONÓMICA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#valor-tiempo-del-dinero" class="md-nav__link">
+    Valor tiempo del dinero
+  </a>
+  
+    <nav class="md-nav" aria-label="Valor tiempo del dinero">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculos" class="md-nav__link">
+    Cálculos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formulas" class="md-nav__link">
+    Fórmulas
+  </a>
+  
+    <nav class="md-nav" aria-label="Fórmulas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-suma-futura" class="md-nav__link">
+    Valor presente de una suma futura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-anualidad-para-n-periodos-de-pago" class="md-nav__link">
+    Valor presente de una anualidad para n periodos de pago
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-anualidad-creciente" class="md-nav__link">
+    Valor presente de una anualidad creciente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-perpetuidad" class="md-nav__link">
+    Valor presente de una perpetuidad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-presente-de-una-perpetuidad-creciente" class="md-nav__link">
+    Valor presente de una perpetuidad creciente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-futuro-de-una-anualidad" class="md-nav__link">
+    Valor futuro de una anualidad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-futuro-de-una-anualidad-creciente" class="md-nav__link">
+    Valor futuro de una anualidad creciente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-caja" class="md-nav__link">
+    Flujo de caja
+  </a>
+  
+    <nav class="md-nav" aria-label="Flujo de caja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elaborar-un-flujo-de-caja" class="md-nav__link">
+    Elaborar un flujo de caja
+  </a>
+  
+    <nav class="md-nav" aria-label="Elaborar un flujo de caja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculo-del-flujo-de-caja-personal" class="md-nav__link">
+    Cálculo del flujo de caja personal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejora-del-flujo-de-caja" class="md-nav__link">
+    Mejora del flujo de caja
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nopcaf" class="md-nav__link">
+    NOPCAF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flujo-de-financiacion" class="md-nav__link">
+    Flujo de financiación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#valor-actual-neto" class="md-nav__link">
+    Valor actual neto
+  </a>
+  
+    <nav class="md-nav" aria-label="Valor actual neto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    Interpretación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tasa-interna-de-retorno" class="md-nav__link">
+    Tasa interna de retorno
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasa interna de retorno">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#otras-definiciones" class="md-nav__link">
+    Otras Definiciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-de-la-tasa-interna-de-retorno" class="md-nav__link">
+    Cálculo de la Tasa Interna de Retorno
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-general-de-la-tir" class="md-nav__link">
+    Uso general de la TIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dificultades-en-el-uso-de-la-tir" class="md-nav__link">
+    Dificultades en el uso de la TIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    Ejemplo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion_1" class="md-nav__link">
+    Interpretación
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referencias
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="estudio-de-viabilidad">Estudio de Viabilidad</h1>
+<h2 id="informes">Informes</h2>
+<details class="abstract"><summary>Informe VIABILIDAD ECONÓMICA</summary><h3 id="informe-viabilidad-economica">Informe VIABILIDAD ECONÓMICA</h3>
+<p><a class="md-button" href="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION"><img alt="Placeholder" loading="lazy" src="../img/e_A_FINANCIACION.png" /></a>
+</p>
+</details>
+<iframe hidden src="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV" > </iframe>
+
+<h2 id="valor-tiempo-del-dinero">Valor tiempo del dinero</h2>
+<p>El <strong>valor del dinero en el tiempo</strong> (en inglés, <em>Time Value of Money</em>, abreviado usualmente como <em>TVM</em>) es un concepto <a href="https://es.wikipedia.org/wiki/Economía">económico</a> basado en la premisa de que un <a href="https://es.wikipedia.org/wiki/Inversión">inversor</a> prefiere recibir un pago de una suma fija de <a href="https://es.wikipedia.org/wiki/Dinero">dinero</a> hoy, en lugar de recibir el mismo <a href="https://es.wikipedia.org/wiki/Valor_nominal">valor nominal</a> en una determinada fecha futura. Esta preferencia se debe a que, si el  inversor recibe el dinero hoy, podría re invertir el dinero para obtener un monto mayor en la fecha , debido al <a href="https://es.wikipedia.org/wiki/Interés">interés</a> que genera dicha inversión.</p>
+<p>Muchos autores relacionan erróneamente el "valor del dinero en el tiempo" con la inflación. Dado que como se explica anteriormente, el  inversor podría encontrarse en un contexto sin inflación y realizar una  inversión para obtener un interés. Y si bien la inflación probablemente  influya en el valor del interés que genere la inversión (siendo mayor  cuanto más grande sea la inflación) aún con inflación nula las  inversiones se realizan con una determinada tasa de interés.</p>
+<h3 id="calculos">Cálculos</h3>
+<p>Todas las fórmulas relacionadas con este concepto están basadas en la misma fórmula básica, el <a href="https://es.wikipedia.org/wiki/Valor_presente">valor presente</a> de una suma futura de dinero, <a href="https://es.wikipedia.org/wiki/Descuento">descontada</a> al presente. Por ejemplo, una suma <em>FV</em> a ser recibida dentro de un año debe ser descontada (a una tasa apropiada <em>r</em>) para obtener el valor presente, <em>PV</em>.</p>
+<p>Algunos de los cálculos comunes basados en el valor tiempo del dinero son:</p>
+<ul>
+<li><strong>Valor presente</strong> (PV) de una suma de dinero que será recibida en el futuro.</li>
+<li><strong>Valor presente de una <a href="https://es.wikipedia.org/wiki/Anualidad">anualidad</a></strong> (PVA) es el valor presente de un flujo de pagos futuros iguales, como los pagos que se hacen sobre una <a href="https://es.wikipedia.org/wiki/Hipoteca">hipoteca</a>.</li>
+<li><strong>Valor presente de una perpetuidad</strong> es el valor de un flujo de pagos perpetuos, o que se estima no serán interrumpidos ni modificados nunca.</li>
+<li><strong>Valor futuro</strong> (FV) de un monto invertido (por ejemplo, en una cuenta de depósito) a una cierta tasa de interés.</li>
+<li><strong>Valor futuro de una anualidad</strong> (FVA) es el valor futuro de un  flujo de pagos (anualidades), donde se asume que los pagos se  reinvierten a una determinada tasa de interés.</li>
+</ul>
+<p>Hay una serie básica de ecuaciones que representan las operaciones  listadas anteriormente. Las soluciones pueden ser calculadas (en la  mayoría de los casos) usando las fórmulas, una calculadora financiera o  una <a href="https://es.wikipedia.org/wiki/Hoja_de_cálculo">hoja de cálculo</a>. Las fórmulas están programadas en casi todas las calculadoras  financieras, y algunos programas de hoja de cálculo también las tienen a disposición del usuario (por ejemplo, PV, FV, RATE, NPER y PMT).<a href="https://es.wikipedia.org/wiki/Valor_tiempo_del_dinero#cite_note-1">1</a></p>
+<p>Para cualquiera de los ecuaciones, las fórmulas pueden ser  utilizadas para determinar cualquier de las variables desconocidas. Para el caso de las tasas de interés, sin embargo, no existe un  procedimiento matemático para resolverlas, por lo que la única forma de  hacerlo es por medio de prueba y error (para estos casos, una  calculadora financiera o una hoja de cálculo es sumamente útil, pues las pruebas tardan fracciones de segundo).</p>
+<p>Las ecuaciones son frecuentemente combinadas para usos particulares. Por ejemplo, el precio de los <a href="https://es.wikipedia.org/wiki/Bono_(finanzas)">bonos</a> puede ser calculado usando estas ecuaciones.</p>
+<p>Para los cálculos sobre anualidades, se debe tener claro si los pagos se hacen al inicio o al final del periodo.</p>
+<h3 id="formulas">Fórmulas</h3>
+<h4 id="valor-presente-de-una-suma-futura">Valor presente de una suma futura</h4>
+<p>El valor presente del dinero es el monto que una persona estaría dispuesta a pagar hoy a cambio de una cantidad que recibirá en el futuro y está  dado por</p>
+<p><img alt="image-20210928202837786" src="../Viabilidad_Economica.assets/image-20210928202837786.png" />Esta fórmula es fundamental para determinar el valor tiempo del dinero; todas las demás fórmulas se obtienen a partir de esta.</p>
+<p>El valor presente acumulado de flujos de efectivo futuros puede ser calculado sumando las contribuciones de                     F                  V                      t                                {\displaystyle FV_{t}}   <img alt="{\displaystyle FV_{t}}" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/04f5c8797d57042d3036886d06adbdcd4760dbd0" />, el valor del flujo de efectivo en el tiempo                     t           </p>
+<p><img alt="image-20210928202920086" src="../Viabilidad_Economica.assets/image-20210928202920086.png" /></p>
+<p>Nótese que esta serie puede ser sumada para un valor         <span class="arithmatex">\(n -&gt; \infin^2\)</span>     </p>
+<h4 id="valor-presente-de-una-anualidad-para-n-periodos-de-pago">Valor presente de una anualidad para n periodos de pago</h4>
+<p>En este caso los valores de flujo de efectivo se mantienen constantes a  través de n periodos. El valor presente de una anualidad (VPA) tiene  cuatro variables:</p>
+<ol>
+<li>VPA, el valor del dinero en tiempo t = 0.</li>
+<li>A, el valor de los pagos individuales en cada periodo.</li>
+<li>i, la tasa de descuento para cada periodo.</li>
+<li>n es el número de periodos de pago.</li>
+</ol>
+<p><img alt="image-20210928203044455" src="../Viabilidad_Economica.assets/image-20210928203044455.png" /></p>
+<p>Para obtener el VP de una anualidad anticipada, multiplicar la ecuación anterior por (1 + i).</p>
+<h4 id="valor-presente-de-una-anualidad-creciente">Valor presente de una anualidad creciente</h4>
+<p>En este caso, cada uno de los flujos de efectivo crecen por un factor de  (1+g). Similar a la fórmula de una anualidad, el valor presente de una  anualidad creciente usa las mismas variables en adición a <em>g</em>, que es la tasa de crecimiento de la anualidad (A es el pago de la anualidad en el primer periodo).</p>
+<p><img alt="image-20210928203054495" src="../Viabilidad_Economica.assets/image-20210928203054495.png" /></p>
+<h4 id="valor-presente-de-una-perpetuidad">Valor presente de una perpetuidad</h4>
+<p>Cuando            <span class="arithmatex">\(n -&gt; \infin^2\)</span> el PV de una perpetuidad (una anualidad perpetua) es una simple división:</p>
+<p><img alt="image-20210928203133050" src="../Viabilidad_Economica.assets/image-20210928203133050.png" /></p>
+<h4 id="valor-presente-de-una-perpetuidad-creciente">Valor presente de una perpetuidad creciente</h4>
+<p>Cuando la perpetuidad anual crece a una tasa fija (g), se debe utilizar esta  fórmula. En la realidad, hay pocos instrumentos financieros que cumplan  con esta característica. Sin embargo, suponga que un analista intenta  calcular el valor de la acción de una empresa que paga dividendos. El  analista podrá estimar el pago de dividendos para los próximos periodos, pero llegará a un punto en que no podrá seguir estimando hacia el  futuro. A partir de este punto, el analista debe estimar cuánto puede  crecer el pago de dividendos en la perpetuidad. Por ejemplo, la empresa  aumentará los dividendos en un 3 % durante los próximos tres años, y de  ahí en adelante, los dividendos aumentarán un 1 % cada año. El valor de  esta perpetuidad se calcula de la siguiente forma:</p>
+<p><img alt="image-20210928203142969" src="../Viabilidad_Economica.assets/image-20210928203142969.png" /></p>
+<h4 id="valor-futuro-de-una-anualidad">Valor futuro de una anualidad</h4>
+<ul>
+<li>VF(A), el valor de la anualidad A en el tiempo = n (futuro).</li>
+<li>A, el valor de los pagos individuales en cada periodo de pago.</li>
+<li>i, la tasa de interés.</li>
+<li>n, el número de periodos de pago.</li>
+</ul>
+<p><img alt="image-20210928203200561" src="../Viabilidad_Economica.assets/image-20210928203200561.png" /></p>
+<h4 id="valor-futuro-de-una-anualidad-creciente">Valor futuro de una anualidad creciente</h4>
+<p>Consiste en la idea de invertir en el momento actual, para obtener un rendimiento en el futuro.</p>
+<ul>
+<li>VF(A), el valor de la anualidad A en el tiempo                     n              {\displaystyle n}   <img alt="n" src="../Viabilidad_Economica.assets/a601995d55609f2d9f5e233e36fbe9ea26011b3b.svg%2Bxml" />.</li>
+<li>A, el valor de los pagos individuales en cada periodo de pago.</li>
+<li>i, la tasa de interés.</li>
+<li>g, la tasa de crecimiento en cada periodo.</li>
+<li>n, el número de periodos de pago.</li>
+</ul>
+<p><img alt="image-20210928203221306" src="../Viabilidad_Economica.assets/image-20210928203221306.png" /></p>
+<h2 id="flujo-de-caja">Flujo de caja</h2>
+<p><a href="https://es.wikipedia.org/wiki/Flujo_de_caja#mw-head">Ir a la navegación</a><a href="https://es.wikipedia.org/wiki/Flujo_de_caja#searchInput">Ir a la búsqueda</a></p>
+<p>En <a href="https://es.wikipedia.org/wiki/Finanzas">finanzas</a>, se entiende por <strong>flujo de caja</strong> (en <a href="https://es.wikipedia.org/wiki/Idioma_inglés">inglés</a>, <em>cash flow</em>) o <strong>flujo de finanzas</strong> el conjunto de los flujos de entradas y salidas de caja o efectivo en un periodo dado.</p>
+<p>El flujo de caja es la acumulación neta de activos líquidos en un periodo determinado y, por lo tanto, constituye un indicador importante de la liquidez de una empresa.</p>
+<p>El estudio de los flujos de caja dentro de una empresa puede ser utilizado para determinar:</p>
+<ul>
+<li>Problemas de liquidez. El ser rentable no significa  necesariamente poseer liquidez. Una compañía puede tener problemas de  efectivo, aun siendo rentable. Por lo tanto, permite anticipar los  saldos en dinero.</li>
+<li>Para analizar la viabilidad de proyectos de inversión, los flujos de fondos son la base de cálculo del <a href="https://es.wikipedia.org/wiki/Valor_actual_neto">valor actual neto</a> y de la <a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno">tasa interna de retorno</a>.</li>
+<li>Para medir la rentabilidad o crecimiento de un negocio cuando se entienda que las <a href="https://es.wikipedia.org/wiki/Normas_contables">normas contables</a> no representan adecuadamente la realidad económica.</li>
+</ul>
+<p>Los flujos de liquidez se pueden clasificar en tres partes:</p>
+<ol>
+<li>Flujos de caja operacionales: efectivo recibido o expendido como resultado de las actividades económicas de base de la compañía.</li>
+<li>Flujos de caja de inversión: efectivo recibido o expendido  considerando los gastos en inversión de capital que beneficiarán el  negocio a futuro. (Ej: la compra de maquinaria nueva, inversiones o  adquisiciones.)</li>
+<li>
+<p>Flujos de caja de financiamiento: efectivo recibido o expendido como resultado de actividades financieras, tales como recepción o pago de  préstamos, emisiones o recompra de acciones y/o pago de dividendos.</p>
+</li>
+<li>
+<p>https://es.wikipedia.org/wiki/Flujo_de_caja#Bibliografía)</p>
+</li>
+</ol>
+<h3 id="elaborar-un-flujo-de-caja">Elaborar un flujo de caja</h3>
+<p>Usualmente el flujo de caja se calcula con una matriz con columnas y filas. En las columnas se disponen los períodos, por lo general, meses; y en las  filas los ingresos y las salidas de dinero.</p>
+<ul>
+<li>Entradas: es todo el dinero que ingresa la empresa por su  actividad productiva o de servicios, o producto de la venta de activos  (desinversión), subvenciones, etc.</li>
+<li>Salidas: es todo dinero que sale de la empresa y que es necesario  para llevar a cabo su actividad productiva. Incluye los costos variables y fijos.</li>
+</ul>
+<p>Para su elaboración es útil usar una <a href="https://es.wikipedia.org/w/index.php?title=Plantilla_de_cálculo&amp;action=edit&amp;redlink=1">plantilla de cálculo</a>. La fórmula que se puede usar para sacar el flujo de caja proyectado es:</p>
+<div class="highlight"><pre><span></span><code>+Ingresos afectos a Impuestos
+- Gastos no desembolsados
+= Utilidad Antes de Impuestos (BAI)
+- Impuestos
+= Utilidad después de Impuestos (BDI)
++ Ajustes por gastos no desembolsados (Amortizaciones y provisiones)
+- Egresos no afectos a Impuestos
++ Beneficios no afectos a Impuestos
+= Flujo de Caja.
+</code></pre></div>
+<h4 id="calculo-del-flujo-de-caja-personal">Cálculo del flujo de caja personal</h4>
+<p>Teóricamente, calcular el flujo de caja de una persona no debería ser difícil,  siempre que se disponga de las cifras exactas de ingresos y de gastos.  En la práctica, resulta un proceso más complejo porque se generan más  beneficios y gastos de los que quedan impresos en facturas y cuentas  corrientes; por ejemplo, el interés que nos da nuestro dinero, nuestras  inversiones, los gastos de dichas inversiones, etc. Por eso llevar una  cartera de ingresos y gastos diaria y actualizada dará al final de mes  las cifras que se buscan. Calcular el flujo de caja y obtener el gráfico de movimientos durante periodos de tiempo largos nos dará una visión  global de dónde se genera nuestro dinero y a qué se destina a largo  plazo, cuándo son las épocas en que se generan más gastos y cuándo más  beneficios. La fórmula básica del cálculo sería:</p>
+<p><strong>Flujo de caja</strong> = Beneficios netos + Amortizaciones + Provisiones</p>
+<h4 id="mejora-del-flujo-de-caja">Mejora del flujo de caja</h4>
+<p>Cuando hablamos de mejorar el flujo de caja nos referimos a mejorar el  resultado final del cálculo. En nuestro caso lo haremos a escala  doméstica pues a escala empresarial son muchos los factores que entran  en juego. La forma principal de hacerlo es reduciendo los costos, aunque en el caso empresarial también ha de tenerse en cuenta la mejora del  rendimiento de las inversiones por ejemplo, un aspecto muy importante  entre los muchos que hay.</p>
+<ol>
+<li>Lo primero y más importante de todo sería no perder de vista  ningún movimiento tanto a la alza como a la baja de nuestra caja, para  poder así llevar un cálculo exacto.</li>
+<li>Intentar reducir o refinanciar el interés con el banco en el caso de que se estuviera con un crédito o una hipoteca y observar los bancos de la competencia lo que cobran por los servicios que nosotros utilizamos  más a menudo. Por ejemplo las fusiones bancarias habitualmente traen  consigo revisiones de costos que no van a nuestro favor o no son tan  favorables como con la anterior entidad.</li>
+<li>Reducir nuestro gasto con la tarjeta de crédito, reduciendo así los  astronómicos valores de las comisiones que pagamos por usarla.</li>
+<li>Hacer tus transferencias tu mismo desde el cajero o automatizarlas en el caso de que hagas transferencias habitualmente.</li>
+<li>Reducir esos costos que tienes y podrías evitarte llevando el  desayuno de casa en vez de ir a la cafetería, intentar aprovechar los  descuentos o épocas de rebajas para hacer tus compras o gastos, usar la  tarifa telefónica que se adapte mejor a tu horario.... en definitiva  pequeñas cosas que suman al final del ejercicio.</li>
+</ol>
+<h4 id="nopcaf">NOPCAF</h4>
+<p>El <strong>NOPCAF</strong>, acrónimo del inglés, <em>Net Operating Cash Flow</em>, y traducido al español como «Flujo de Efectivo Neto de Trabajo»,  representa el total de los flujos de efectivo de una empresa en un  periodo dado, que por lo general es anual. Este indicador es utilizado principalmente en la valuación de empresas, y es una de las variables para determinar el EVA (Economic Value Added,  por sus siglas en inglés), o <a href="https://es.wikipedia.org/w/index.php?title=Valor_Económico_Agregado&amp;action=edit&amp;redlink=1">Valor Económico Agregado</a>, así como el VPN (<a href="https://es.wikipedia.org/wiki/Valor_actual_neto">Valor Presente Neto</a>).</p>
+<p>La fórmula utilizada para determinar el NOPCAF es:</p>
+<p><strong>NOPCAF=GO+CNT</strong></p>
+<p>dónde: NOPCAF=Flujo de Efectivo Neto de Trabajo; GO=Generación Operativa (<a href="https://es.wikipedia.org/w/index.php?title=Utilidad_Neta_Después_de_Impuestos&amp;action=edit&amp;redlink=1">Utilidad Neta Después de Impuestos</a> + <a href="https://es.wikipedia.org/w/index.php?title=Depreciación_económica&amp;action=edit&amp;redlink=1">Depreciación</a>); CNT=Capital Neto de Trabajo</p>
+<h4 id="flujo-de-financiacion">Flujo de financiación</h4>
+<p>El flujo de financiación es el conjunto de <a href="https://es.wikipedia.org/wiki/Contrato_de_crédito">contratos de crédito</a> bajo la forma de <a href="https://es.wikipedia.org/wiki/Apertura_de_crédito">apertura de crédito</a>, <a href="https://es.wikipedia.org/wiki/Descuento_comercial">descuento comercial</a>, <a href="https://es.wiktionary.org/wiki/anticipo">anticipo</a>, <a href="https://es.wikipedia.org/wiki/Pago_aplazado">pago aplazado</a>, <a href="https://es.wikipedia.org/wiki/Cesión_de_crédito">cesión de créditos</a> o cualesquiera otros que cumplan con una función equivalente de financiación otorgados a una empresa por una misma <a href="https://es.wikipedia.org/wiki/Entidad_de_crédito">entidad de crédito</a>.<a href="https://es.wikipedia.org/wiki/Flujo_de_caja#cite_note-1">1</a></p>
+<h2 id="valor-actual-neto">Valor actual neto</h2>
+<p>El <strong>valor actual neto</strong>, también conocido como  valor actualizado neto o valor presente neto (en inglés <em>net present value</em>), cuyo acrónimo es VAN (en inglés, NPV), corresponde al <a href="https://es.wikipedia.org/wiki/Valor_tiempo_del_dinero">valor presente</a> de los flujos de caja netos (ingresos - egresos) originados por una inversión. </p>
+<p>La fórmula para calcular el Valor Actual Neto es:</p>
+<p><img alt="image-20210928201449305" src="../Viabilidad_Economica.assets/image-20210928201449305.png" /></p>
+<p>El valor de <em>k</em> que hace que el VAN tome un valor igual a 0, se denomina <a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno">tasa interna de retorno</a> (TIR) y es una medida de la rentabilidad de una inversión. </p>
+<h3 id="interpretacion">Interpretación</h3>
+<table>
+<thead>
+<tr>
+<th>Valor</th>
+<th>Significado</th>
+<th>Decisión a tomar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VAN &gt; 0</td>
+<td>La inversión produciría ganancias por encima de la rentabilidad exigida (r)</td>
+<td>El proyecto puede aceptarse</td>
+</tr>
+<tr>
+<td>VAN &lt; 0</td>
+<td>La inversión produciría pérdidas por debajo de la rentabilidad exigida (r)</td>
+<td>El proyecto debería rechazarse</td>
+</tr>
+<tr>
+<td>VAN = 0</td>
+<td>La inversión no produciría ni ganancias ni pérdidas</td>
+<td>Dado que el proyecto no agrega valor monetario por encima de la  rentabilidad exigida (r), la decisión debería basarse en otros  criterios, como la obtención de un mejor posicionamiento en el mercado u otros factores</td>
+</tr>
+</tbody>
+</table>
+<p>El <strong>valor actual neto</strong> es muy importante para la valoración de  inversiones en activos fijos, a pesar de sus limitaciones en considerar  circunstancias imprevistas o excepcionales de mercado. Si su valor es  mayor a cero, el proyecto es rentable, considerándose el valor mínimo de rendimiento para la inversión. Al respecto, Johnson (1998) se expresa  así: “En resumen, un proyecto de inversión de capital debería aceptarse  si tiene un valor presente neto positivo, cuando los flujos de efectivo  esperados se descuentan al costo de oportunidad”. (p. 45)</p>
+<p>Una empresa suele comparar diferentes alternativas para comprobar si un  proyecto le conviene o no. Normalmente la alternativa con el VAN más  alto suele ser la mejor para la entidad; pero no siempre tiene que ser  así. Hay ocasiones en las que una empresa elige un proyecto con un VAN  más bajo debido a diversas razones como podrían ser la imagen que le  aportará a la empresa, por motivos estratégicos u otros motivos que en  ese momento interesen a dicha entidad.</p>
+<p>Puede considerarse también la interpretación del VAN, en función de la creación de valor para la empresa:</p>
+<p>- Si el VAN de un proyecto es positivo, el proyecto crea valor.</p>
+<p>- Si el VAN de un proyecto es negativo, el proyecto destruye valor.</p>
+<p>- Si el VAN de un proyecto es cero, el proyecto no crea ni destruye valor.</p>
+<h2 id="tasa-interna-de-retorno">Tasa interna de retorno</h2>
+<p>La <em>tasa interna de retorno</em>, <em>tasa interna  de rentabilidad</em> (TIR) o <em>tasa de rentabilidad interna</em> (TRI) de una inversión es la <a href="https://es.wikipedia.org/wiki/Media_geométrica">media geométrica</a> de los rendimientos futuros esperados de dicha inversión, y que implica por cierto el supuesto de una oportunidad para "reinvertir". En  términos simples, diversos autores la conceptualizan como la <a href="https://es.wikipedia.org/wiki/Tasa_de_descuento">tasa de descuento</a> con la que el <a href="https://es.wikipedia.org/wiki/Valor_actual_neto">valor actual neto</a> o <a href="https://es.wikipedia.org/wiki/Valor_presente_neto">valor presente neto</a> (VAN o VPN) es igual a cero.<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-1">1</a><a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-2">2</a></p>
+<p>La TIR puede utilizarse como indicador de la rentabilidad de un proyecto: a mayor TIR, mayor rentabilidad;<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-3">3</a><a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-4">4</a> así, se utiliza como uno de los criterios para decidir sobre la aceptación o rechazo de un proyecto de inversión.<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-5">5</a> Para ello, la TIR se compara con una tasa mínima o tasa de corte, el  coste de oportunidad de la inversión (si la inversión no tiene riesgo,  el <a href="https://es.wikipedia.org/wiki/Coste_de_oportunidad">coste de oportunidad</a> utilizado para comparar la TIR será la tasa de rentabilidad libre de  riesgo). Si la tasa de rendimiento del proyecto - expresada por la TIR-  supera la tasa de corte, se acepta la inversión; en caso contrario, se  rechaza. </p>
+<h3 id="otras-definiciones">Otras Definiciones</h3>
+<ul>
+<li>Es la tasa que iguala la suma del valor actual de los gastos con la suma del valor actual de los ingresos previstos:                   </li>
+</ul>
+<p><img alt="image-20210928201732127" src="../Viabilidad_Economica.assets/image-20210928201732127.png" /></p>
+<ul>
+<li>
+<p>Es la tasa de interés para la cual los ingresos totales actualizados es igual a los costos totales actualizados:                             </p>
+</li>
+<li>
+<p>Es la tasa de interés por medio de la cual se recupera la <a href="https://es.wikipedia.org/wiki/Inversión">inversión</a>.</p>
+</li>
+<li>
+<p>Es la tasa de interés máxima a la que se pueden endeudar para no perder dinero con la inversión.</p>
+</li>
+<li>
+<p>Es la tasa real que proporciona un proyecto de inversión y es  aquella que al ser utilizada como tasa de descuento en el cálculo de un  VAN dará como resultado 0.</p>
+</li>
+<li>
+<p>Es la tasa de interés compuesto al que permanecen invertidas las cantidades no retiradas del proyecto de inversión.<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-Mascareñas_1-6">6</a></p>
+</li>
+</ul>
+<h3 id="calculo-de-la-tasa-interna-de-retorno">Cálculo de la Tasa Interna de Retorno</h3>
+<p>El tipo de descuento que hace igual a cero el valor actualizado neto (<a href="https://es.wikipedia.org/wiki/VAN">VAN</a>):</p>
+<p><img alt="image-20210928201819336" src="../Viabilidad_Economica.assets/image-20210928201819336.png" /></p>
+<p>Sin embargo, el cálculo obtenido puede estar bastante alejado de la TIR real.</p>
+<p>Una aproximación más sencilla y útil es el VAN por unidad  invertida y año, sumado al tipo de descuento (usado para calcular dicho  VAN). Esta media tiene la ventaja de poderse ajustar mediante  iteraciones y se usa en aquellos casos en que ya conocemos el valor del  VAN<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-Galindo-7">7</a></p>
+<h3 id="uso-general-de-la-tir">Uso general de la TIR</h3>
+<p>Y como ya se ha comentado anteriormente, la <strong>TIR</strong> o tasa de rendimiento interno, es una herramienta de toma de decisiones de <a href="https://es.wikipedia.org/wiki/Inversión">inversión</a> utilizada para conocer la factibilidad de diferentes opciones de inversión. </p>
+<p>El criterio general para saber si es conveniente realizar un proyecto es el siguiente: </p>
+<ul>
+<li>Si <strong>TIR                     ≥               r</strong>                     Se aceptará el proyecto. La razón es que el proyecto da una  rentabilidad mayor que la rentabilidad mínima requerida (el coste de  oportunidad), lo que significa que si invirtieramos en un proyecto en  específico (TIR) ganaríamos más dinero que por ejemplo adquieriendo  bonos del estado (r).</li>
+<li>Si <strong>TIR                     &lt;                      r</strong>    Se rechazará el proyecto. La razón es que el proyecto da una  rentabilidad menor que la rentabilidad mínima requerida. Lo que indica  que si inviertieramos por ejemplo en bonos del estado (r), ganaríamos  más dinero que si lo hiciesemos en un proyecto en específico (TIR).</li>
+</ul>
+<p>r representa el costo de oportunidad o en otras palabras la <a href="https://es.wikipedia.org/wiki/Valor_tiempo_del_dinero">tasa de interés</a>.</p>
+<h3 id="dificultades-en-el-uso-de-la-tir">Dificultades en el uso de la TIR</h3>
+<ul>
+<li>
+<p><strong>Criterio de aceptación o rechazo</strong>. El criterio general sólo es cierto si el proyecto es del tipo <em>"prestar o invertir"</em>, es decir, si es probable que los primeros flujos de caja sean negativos y los siguientes positivos.</p>
+</li>
+<li>
+<p>Por el contrario, si el proyecto es del tipo </p>
+</li>
+</ul>
+<p>"pedir prestado o pedir prestado para invertir"</p>
+<p>(con probabilidad de flujos de caja positivos al principio y negativos  después), y teniendo en cuenta que la tasa interna de retorno esperada  es mayor, la decisión de aceptar o rechazar un proyecto se toma de  manera contraria:</p>
+<ul>
+<li>Si <strong>TIR &gt; r</strong>          Se rechazará el proyecto. La rentabilidad que nos está requiriendo este préstamo es mayor que nuestro costo de oportunidad. De esta manera, las ganancias que espera nuestro prestamista (TIR) son mayores que las que  ganancias que esperaríamos si por ejemplo inviertiesemos ese préstamo  recibido en bonos del estado (r).</li>
+<li>
+<p>Si <strong>TIR &lt;= r</strong>      Se aceptará el proyecto. De esta manera, las ganancías que obtendríamos luego de invertir el prestamo recibido (r), por ejemplo en bonos del  estado; alcanzarían a librar las ganancias que espera nuestro  prestamista (TIR).</p>
+</li>
+<li>
+<p><strong>Comparación de proyectos excluyentes</strong>. Dos proyectos son  excluyentes si solamente se puede llevar a cabo uno de ellos.  Generalmente, la opción de inversión con la TIR más alta es la  preferida, siempre que los proyectos tengan el mismo riesgo, la misma  duración y la misma inversión inicial. Si no, será necesario aplicar el  criterio de la TIR de los flujos incrementales.</p>
+</li>
+<li>
+<p><strong>Proyectos especiales</strong>, también llamado el problema de la <em>inconsistencia de la TIR</em>. Son proyectos especiales aquellos que en su serie de flujos de caja hay más de un cambio de signo. Estos pueden tener más de una TIR, tantas  como cambios de signo, lo cual obedece a la presencia de la regla de los signos de Descartes. Esto complica el uso del criterio de la TIR para  saber si aceptar o rechazar la inversión. Para solucionar este problema, se suele utilizar la TIR Corregida. También la inconsistencia de la TIR tiene lugar cuando existen proyectos que no tienen TIR.<a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno#cite_note-Mascareñas_1-6">6</a></p>
+</li>
+</ul>
+<h3 id="ejemplo">Ejemplo</h3>
+<p>Supongamos una inversión que nos da estos flujos de caja:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Año 1</th>
+<th>Año 2</th>
+<th>Año 3</th>
+<th>Año 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flujo de caja</td>
+<td>31</td>
+<td>-72</td>
+<td>91</td>
+<td>22</td>
+</tr>
+</tbody>
+</table>
+<p>Ahora tenemos flujos de caja negativos. Al resolver la TIR para este  caso con métodos recursivos podemos dar hasta con 2 TIR diferentes,  correspondientes a <strong>los cambios de signo</strong> de los flujos de caja (no al número de flujos de caja negativos).</p>
+<p>Para calcular la TIR, llamada en estos casos TIRC (TIR Corregida) hay que hacer un análisis año por año del saldo del proyecto/inversión. Con una ROI = 20% y un K = 12% (Coste de financiación) y una duración  del proyecto de 5 años obtendríamos un saldo acumulado de 82,3. El  cálculo de la TIRC es sencillo:</p>
+<p><img alt="image-20210928201943545" src="../Viabilidad_Economica.assets/image-20210928201943545.png" /></p>
+<p>Para el ejemplo anterior, con D = -200 hubiéramos obtenido una  TIRC de -19%, con lo que estaríamos perdiendo dinero con total  seguridad. Es claro, ya que invertimos 200 para recibir un total  acumulado de 82,3.</p>
+<h3 id="interpretacion_1">Interpretación</h3>
+<p>En términos simples, la Tasa Interna de Retorno (TIR) es el porcentaje de  ingresos que se obtiene periódicamente debido a una inversión. Por  ejemplo, si del análisis de un proyecto en dólares se obtiene una TIR de 10% anual, significa que por cada 100 dólares invertidos se obtiene un  ingreso de 10 dólares cada año. </p>
+<p>Este es un término un poco ambiguo de interpretar. En resumen,  este parámetro ayuda a tomar la decisión de si una inversión es rentable o no, vamos a verlo:</p>
+<p>Tenemos un proyecto A. Este proyecto, nos garantiza unos Flujos de Caja en <em>t</em> años. Para visualizar la idea, escogemos <em>t = 1</em>, es decir un solo año. De acuerdo a lo descrito previamente: </p>
+<p><img alt="image-20210928202047650" src="../Viabilidad_Economica.assets/image-20210928202047650.png" /></p>
+<p>Es decir, hemos transcrito los Flujos de Caja generados  anteriormente a la inversión inicial más una cierta ganancia (en  porcentaje).  </p>
+<p>Ahora bien, en el mercado encontramos productos que nos pueden dar una rentabilidad <em>r</em>, conocida como <a href="https://www.investopedia.com/terms/r/requiredrateofreturn.asp">Required Rate of Return</a>), como puede ser un bono que nos de por ejemplo un 10%. Esto no es más que un <a href="https://es.wikipedia.org/wiki/Coste_de_oportunidad">coste de oportunidad</a>, es decir, pese a que los cálculos para calcular esta <em>r</em> puedan ser complicados la podemos pensar como la inversión más fácil  que podríamos encontrar en el mercado o bien como la inversión que  estamos descartando por haber escogido otra. </p>
+<p>Entonces <strong>sabidos y fijados los Flujos de Caja y la TIR</strong>, descontaríamos los Flujos de Caja con esta <em>r</em> , <strong>como si hubiéramos re-invertido los Flujos de Caja en el producto que ofrece la rentabilidad *r*</strong> y ahora la quisiéramos descontar para saber el Valor Presente Neto de la inversión. De nuevo, con <em>t = 1</em>, de manera ilustrativa: </p>
+<p><img alt="image-20210928202025878" src="../Viabilidad_Economica.assets/image-20210928202025878.png" /></p>
+<p>Por ejemplo;  </p>
+<p>Una <em>r = 0</em> quiere decir que no hemos encontrado en el  mercado ninguna inversión que nos de rentabilidad. Entonces no  descontaríamos nada. Como la TIR suele ser mayor que 0, la decisión  sería la de invertir.  </p>
+<p>Una <em>r &gt; TIR</em> quiere decir que en el mercado <strong>hemos encontrado una inversión que nos da un retorno mayor</strong> que el equivalente de los Flujos de Caja a porcentaje de retorno, ergo  la decisión sería la de no invertir en el producto con estos Flujos de  Caja y sí en el producto que ofrece la rentabilidad <em>r</em>, si se quiere.  </p>
+<p>Una <em>r &lt; TIR</em> quiere decir que en el mercado <strong>hemos encontrado una inversión que nos da un retorno menor</strong> que el equivalente de los Flujos de Caja a porcentaje de retorno, ergo  la decisión sería la de invertir en el producto con estos Flujos de Caja y no en el producto que ofrece la rentabilidad <em>r</em>, si se quiere.</p>
+<h2 id="referencias">Referencias</h2>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Valor_actual_neto">Valor actual neto</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Flujo_de_caja">Flujo de caja</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Tasa_interna_de_retorno">Tasa interna de retorno</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Valor_tiempo_del_dinero">Valor tiempo del dinero</a></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+        
+        <a href="../Instalacion_FV/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Instalacion FV." rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Instalacion FV.
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../app/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Funcionamiento de la aplicacion" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              Funcionamiento de la aplicacion
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copiar al portapapeles", "clipboard.copied": "Copiado al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}, "search": "../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.756773cc.min.js"></script>
+      
+        <script src="../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://autoconsumes.github.io/Viabilidad_Economica/</loc>
+         <lastmod>2021-09-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://autoconsumes.github.io/app/</loc>
          <lastmod>2021-09-28</lastmod>
          <changefreq>daily</changefreq>
