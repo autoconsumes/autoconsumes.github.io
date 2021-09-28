@@ -3,7 +3,6 @@
     estudios = [
                 {
 
-                    "e_A_FINANCIACION": "VIABILIDAD ECONÓMICA",
                     "e_A_FV_AISLADA": "[20%] Presupuesto de Instalacion FV aislada para vivienda",
                     "e_A_FV": "PÉRDIDAS POR SOMBRAS, ORIENTACIÓN E INCLINACIÓN DEL GENERADOR DISTINTA DE LA ÓPTIMA",
                     "e_A_NUEVO": "e_A_NUFFEVO"

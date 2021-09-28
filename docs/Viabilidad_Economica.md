@@ -61,7 +61,7 @@ El valor presente acumulado de flujos de efectivo futuros puede ser calculado su
 
 
 
-Nótese que esta serie puede ser sumada para un valor         $n -> \infin^2$     
+Nótese que esta serie puede ser sumada para un valor         $n -> \propto^2$     
 
 #### Valor presente de una anualidad para n periodos de pago
 
@@ -84,7 +84,7 @@ En este caso, cada uno de los flujos de efectivo crecen por un factor de  (1+g).
 
 #### Valor presente de una perpetuidad
 
-Cuando            $n -> \infin^2$ el PV de una perpetuidad (una anualidad perpetua) es una simple división:
+Cuando            $n -> \propto^2$ el PV de una perpetuidad (una anualidad perpetua) es una simple división:
 
 ![image-20210928203133050](Viabilidad_Economica.assets/image-20210928203133050.png)
 
