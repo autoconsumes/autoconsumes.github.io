@@ -2,7 +2,7 @@ site_name: E3. Estudios de Eficiencia Energetica.
 site_url: https://eee.solar
 theme:
   palette:
-    primary: amber
+    primary: light green
   name: material
   language: es
   favicon: assets/favicon.ico
