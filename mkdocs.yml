@@ -15,6 +15,7 @@ extra:
   analytics:
     provider: google
     property: G-BY8HY373BD
+    
 markdown_extensions:
   - attr_list
   - admonition
