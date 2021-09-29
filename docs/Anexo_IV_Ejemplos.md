@@ -21,8 +21,7 @@ En este anexo se presentan ejemplos de varias configuraciones de instalaciones d
 tanto individual como colectivo a las que se aplica el mecanismo de compensación de excedentes,
 mostrando el funcionamiento del mecanismo de compensación para ilustrar los ahorros que
 podrían conseguirse con su aplicación.
-Debe tener en cuenta que los ejemplos se realizan con la estructura actual de la tarifa eléctrica y
-aplicando los peajes y cargos existentes en este momento. [ Actualmente se está revisando el REBT, enparticular lo referente a las ITC-BT-12 e ITC-BT-40 para adaptarloa los requisitos de autoconsumo. Losejemplos que se muestran en esta Guía se realizan únicamente a efectosdemostrativos sin perjuicio de losesquemas que finalmente sean aprobados.]
+Debe tener en cuenta que los ejemplos se realizan con la estructura actual de la tarifa eléctrica y aplicando los peajes y cargos existentes en este momento. [ Actualmente se está revisando el REBT, enparticular lo referente a las ITC-BT-12 e ITC-BT-40 para adaptarloa los requisitos de autoconsumo. Losejemplos que se muestran en esta Guía se realizan únicamente a efectosdemostrativos sin perjuicio de losesquemas que finalmente sean aprobados.]
 
 
 ## "D.1 Autoconsumo individual CON excedentes y CON compensación, conectada en RED INTERIOR"

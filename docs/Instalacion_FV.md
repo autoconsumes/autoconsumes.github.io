@@ -1,4 +1,4 @@
-# Instalacion FV.
+Instalacion FV.
 
 ## Informes
 
@@ -6,13 +6,13 @@
 
     ### Informe Dimensionado del sistema
     !!! Warning "Personalize su informe "
-
+    
     [Edite el modelo excel ($t_{carga}\leq 15s.$) ![Placeholder](./img/e_A_FV.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV){ .md-button }
 
 
 ???+ Abstract "Informe Estimación del consumo"
     ### Informe Estimación del consumo
- 
+
 
 
 
@@ -138,39 +138,75 @@ de la energía hidráulica útil (es decir, H f < 0,1H TE ).
   Ángulo entre la proyección sobre el plano horizontal de la normal a la superficie del módulo y
   el meridiano del lugar (figura 2). Valores típicos son 0° para módulos orientados al sur, –90°
   para módulos orientados al este y +90° para módulos orientados al oeste.
+  
 * ![image-20210927140550186](Instalacion_FV.assets/image-20210927140550186.png)
+
 * 2.3 G dm (0).
   Valor medio mensual o anual de la irradiación diaria sobre superficie horizontal en kWh/(m 2 A día).
+  
 * 2.4 G dm ( " opt ,  opt ).
   Valor medio mensual o anual de la irradiación diaria sobre el plano del generador orientado de
   forma óptima ( " opt , $ opt ), en kWh/(m 2 A día). Se considera orientación óptima aquella que hace que
   la energía colectada sea máxima en un período.
+  
 * 2.5 G dm ( " ,  ).
   Valor medio mensual de la irradiación diaria sobre el plano del generador en kWh/(m 2 A día) y
   en el que se hayan descontado las pérdidas por sombreado.
   2.6 Factor de irradiación (FI).
-  Porcentaje de radiación incidente para un generador de orientación e inclinación ( " ,  ) respecto
-  a la correspondiente para una orientación e inclinación óptimas ( " = 0°, $ opt ). Las pérdidas de
+  Porcentaje de radiación incidente para un generador de orientación e inclinación $( \alpha ,\beta  )$ respecto
+  a la correspondiente para una orientación e inclinación óptimas $(\alpha=0^o,\beta_{opt})$ . Las pérdidas de
   radiación respecto a la orientación e inclinación óptimas vienen dadas por (1 – FI).
+  
 * 2.7 Factor de sombreado (FS).
   Porcentaje de radiación incidente sobre el generador respecto al caso de ausencia total de
-  sombras. Las pérdidas por sombreado vienen dadas por (1 – FS).
-* 2.8 Rendimiento energético de la instalación o “performance ratio”, PR.
+  sombras. Las pérdidas por sombreado vienen dadas por $(1 – FS)$.
+  
+* 2.8 Rendimiento energético de la instalación o “performance ratio”, $PR$.
   Eficiencia de la instalación en condiciones reales de trabajo para el período de diseño, de
   acuerdo con la ecuación:
-  ![image-20210927140734078](Instalacion_FV.assets/image-20210927140734078.png)
+  
+  $PR=\frac{E_D G_{CEM}}{G_{dm}(\alpha, \beta) P_{mp}}$
+
+
+
+donde:
+
+$G_{CEM}=1 kW/m^2$
+
+$P_{mp}:$Potencia pico dedl generador (kWp)
+
+$E_D$:Cosumo expresado en kWh/dia
+
+
+
+* 
   Este factor considera las pérdidas en la eficiencia energética debido a:
+  
   * La temperatura.
+  
   * El cableado.
+  
   * Las pérdidas por dispersión de parámetros y suciedad.
+  
   * Las pérdidas por errores en el seguimiento del punto de máxima potencia.
+  
   * La eficiencia energética, 0 rb , de otros elementos en operación como el regulador,
+  
   * batería, etc.
+  
   * – La eficiencia energética del inversor, 0 inv .
+  
   * – Otros.
-    Valores típicos son, en sistemas con inversor, PR • 0,7 y, con inversor y batería, PR • 0,6. A
-    efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor PR = 0,7 y con
-    inversor y batería PR = 0,6. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
+  
+    
+  
+    
+  
+    
+  
+    Valores típicos son, en sistemas con inversor, $PR \approx 0,7$ y, con inversor y batería, $PR \approx 0,6$. A
+    efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor $PR = 0,7$ y con
+    inversor y batería $PR = 0,6$. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
     desglosando los diferentes factores de pérdidas utilizados para su estimación.
     En caso de acoplo directo de cargas al generador (por ejemplo, una bomba), se
 
