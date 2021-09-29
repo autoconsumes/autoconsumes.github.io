@@ -14,7 +14,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property: UA-178886246-1
+    property: G-BY8HY373BD
 markdown_extensions:
   - attr_list
   - admonition
