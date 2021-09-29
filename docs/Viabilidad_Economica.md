@@ -4,7 +4,9 @@
 
 ???+ Abstract "Informe VIABILIDAD ECONÓMICA"
     ### Informe VIABILIDAD ECONÓMICA
-    [![Placeholder](./img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
+    !!! Warning "Personalize su informe "
+
+    [Edite el modelo excel ($t_{carga}\leq 15s.$) ![Placeholder](./img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
   <iframe hidden src="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV" > </iframe>
 
 
