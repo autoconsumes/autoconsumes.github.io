@@ -16,7 +16,7 @@
     
     
       
-        <title>Instalacion FV. - E3. Estudios de Eficiencia Energetica.</title>
+        <title>Instalacion FV - E3. Estudios de Eficiencia Energetica.</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instalacion-fv" class="md-skip">
+        <a href="#informes" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instalacion FV.
+              Instalacion FV
             
           </span>
         </div>
@@ -267,24 +267,20 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Instalacion FV.
+          Instalacion FV
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Instalacion FV.
+        Instalacion FV
       </a>
       
         
 <nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -599,8 +595,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -858,7 +852,9 @@
               
                 
                 
-                <h1 id="instalacion-fv">Instalacion FV.</h1>
+                  <h1>Instalacion FV</h1>
+                
+                <p>Instalacion FV.</p>
 <h2 id="informes">Informes</h2>
 <details class="abstract" open="open"><summary>Informe Dimensionado del sistema</summary><h3 id="informe-dimensionado-del-sistema">Informe Dimensionado del sistema</h3>
 <div class="admonition warning">
@@ -972,45 +968,83 @@ de la energía hidráulica útil (es decir, H f &lt; 0,1H TE ).</p>
 <p>Ángulo que forma la superficie de los módulos con el plano horizontal (figura 1). Su valor es
 0° para módulos horizontales y 90° para verticales.</p>
 <ul>
-<li>2.2 Ángulo de azimut " .
+<li>
+<p>2.2 Ángulo de azimut " .
   Ángulo entre la proyección sobre el plano horizontal de la normal a la superficie del módulo y
   el meridiano del lugar (figura 2). Valores típicos son 0° para módulos orientados al sur, –90°
-  para módulos orientados al este y +90° para módulos orientados al oeste.</li>
-<li><img alt="image-20210927140550186" src="../Instalacion_FV.assets/image-20210927140550186.png" /></li>
-<li>2.3 G dm (0).
-  Valor medio mensual o anual de la irradiación diaria sobre superficie horizontal en kWh/(m 2 A día).</li>
-<li>2.4 G dm ( " opt ,  opt ).
+  para módulos orientados al este y +90° para módulos orientados al oeste.</p>
+</li>
+<li>
+<p><img alt="image-20210927140550186" src="../Instalacion_FV.assets/image-20210927140550186.png" /></p>
+</li>
+<li>
+<p>2.3 G dm (0).
+  Valor medio mensual o anual de la irradiación diaria sobre superficie horizontal en kWh/(m 2 A día).</p>
+</li>
+<li>
+<p>2.4 G dm ( " opt ,  opt ).
   Valor medio mensual o anual de la irradiación diaria sobre el plano del generador orientado de
   forma óptima ( " opt , $ opt ), en kWh/(m 2 A día). Se considera orientación óptima aquella que hace que
-  la energía colectada sea máxima en un período.</li>
-<li>2.5 G dm ( " ,  ).
+  la energía colectada sea máxima en un período.</p>
+</li>
+<li>
+<p>2.5 G dm ( " ,  ).
   Valor medio mensual de la irradiación diaria sobre el plano del generador en kWh/(m 2 A día) y
   en el que se hayan descontado las pérdidas por sombreado.
   2.6 Factor de irradiación (FI).
-  Porcentaje de radiación incidente para un generador de orientación e inclinación ( " ,  ) respecto
-  a la correspondiente para una orientación e inclinación óptimas ( " = 0°, $ opt ). Las pérdidas de
-  radiación respecto a la orientación e inclinación óptimas vienen dadas por (1 – FI).</li>
-<li>2.7 Factor de sombreado (FS).
+  Porcentaje de radiación incidente para un generador de orientación e inclinación <span class="arithmatex">\(( \alpha ,\beta  )\)</span> respecto
+  a la correspondiente para una orientación e inclinación óptimas <span class="arithmatex">\((\alpha=0^o,\beta_{opt})\)</span> . Las pérdidas de
+  radiación respecto a la orientación e inclinación óptimas vienen dadas por (1 – FI).</p>
+</li>
+<li>
+<p>2.7 Factor de sombreado (FS).
   Porcentaje de radiación incidente sobre el generador respecto al caso de ausencia total de
-  sombras. Las pérdidas por sombreado vienen dadas por (1 – FS).</li>
-<li>2.8 Rendimiento energético de la instalación o “performance ratio”, PR.
+  sombras. Las pérdidas por sombreado vienen dadas por <span class="arithmatex">\((1 – FS)\)</span>.</p>
+</li>
+<li>
+<p>2.8 Rendimiento energético de la instalación o “performance ratio”, <span class="arithmatex">\(PR\)</span>.
   Eficiencia de la instalación en condiciones reales de trabajo para el período de diseño, de
-  acuerdo con la ecuación:
-  <img alt="image-20210927140734078" src="../Instalacion_FV.assets/image-20210927140734078.png" />
-  Este factor considera las pérdidas en la eficiencia energética debido a:</li>
-<li>La temperatura.</li>
-<li>El cableado.</li>
-<li>Las pérdidas por dispersión de parámetros y suciedad.</li>
-<li>Las pérdidas por errores en el seguimiento del punto de máxima potencia.</li>
-<li>La eficiencia energética, 0 rb , de otros elementos en operación como el regulador,</li>
-<li>batería, etc.</li>
-<li>– La eficiencia energética del inversor, 0 inv .</li>
-<li>– Otros.
-    Valores típicos son, en sistemas con inversor, PR • 0,7 y, con inversor y batería, PR • 0,6. A
-    efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor PR = 0,7 y con
-    inversor y batería PR = 0,6. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
-    desglosando los diferentes factores de pérdidas utilizados para su estimación.
-    En caso de acoplo directo de cargas al generador (por ejemplo, una bomba), se</li>
+  acuerdo con la ecuación:</p>
+</li>
+</ul>
+<p><span class="arithmatex">\(PR=\frac{E_D G_{CEM}}{G_{dm}(\alpha, \beta) P_{mp}}\)</span></p>
+<p>donde:</p>
+<p><span class="arithmatex">\(G_{CEM}=1 kW/m^2\)</span></p>
+<p><span class="arithmatex">\(P_{mp}:\)</span>Potencia pico dedl generador (kWp)</p>
+<p><span class="arithmatex">\(E_D\)</span>:Cosumo expresado en kWh/dia</p>
+<ul>
+<li>
+<p>Este factor considera las pérdidas en la eficiencia energética debido a:</p>
+</li>
+<li>
+<p>La temperatura.</p>
+</li>
+<li>
+<p>El cableado.</p>
+</li>
+<li>
+<p>Las pérdidas por dispersión de parámetros y suciedad.</p>
+</li>
+<li>
+<p>Las pérdidas por errores en el seguimiento del punto de máxima potencia.</p>
+</li>
+<li>
+<p>La eficiencia energética, 0 rb , de otros elementos en operación como el regulador,</p>
+</li>
+<li>
+<p>batería, etc.</p>
+</li>
+<li>
+<p>– La eficiencia energética del inversor, 0 inv .</p>
+</li>
+<li>
+<p>– Otros.</p>
+<p>Valores típicos son, en sistemas con inversor, <span class="arithmatex">\(PR \approx 0,7\)</span> y, con inversor y batería, <span class="arithmatex">\(PR \approx 0,6\)</span>. A
+efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor <span class="arithmatex">\(PR = 0,7\)</span> y con
+inversor y batería <span class="arithmatex">\(PR = 0,6\)</span>. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
+desglosando los diferentes factores de pérdidas utilizados para su estimación.
+En caso de acoplo directo de cargas al generador (por ejemplo, una bomba), se</p>
+</li>
 </ul>
 <h4 id="3-procedimiento">3 Procedimiento</h4>
 <h5 id="31-periodo-de-diseno">3.1 Período de diseño</h5>
