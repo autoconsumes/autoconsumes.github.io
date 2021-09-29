@@ -2,7 +2,7 @@
 
 ## Informes
 
-??? Abstract "Informe VIABILIDAD ECONÓMICA"
+???+ Abstract "Informe VIABILIDAD ECONÓMICA"
     ### Informe VIABILIDAD ECONÓMICA
     [![Placeholder](./img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
   <iframe hidden src="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV" > </iframe>

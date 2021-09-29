@@ -2,13 +2,13 @@
 
 ## Informes
 
-??? Abstract "Factura de la luz"
+???+ Abstract "Factura de la luz"
 	### Factura de la luz
     [![Placeholder](./img/e_A_FACTURA.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FACTURA){ .md-button }
   <iframe hidden src="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV" > </iframe>
 
 
-??? Abstract "Analisis curva de carga"
+???+ Abstract "Analisis curva de carga"
 	### Analisis curva de carga
     [![Placeholder](./img/e_A_CARGA.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_CARGA){ .md-button }
 

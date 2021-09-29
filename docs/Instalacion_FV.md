@@ -2,14 +2,14 @@
 
 ## Informes
 
-??? Abstract "Informe Dimensionado del sistema"
+???+ Abstract "Informe Dimensionado del sistema"
 
     ### Informe Dimensionado del sistema
     [![Placeholder](./img/e_A_FV.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV){ .md-button }
   <iframe hidden src="https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV" > </iframe>
 
 
-??? Abstract "Informe Estimación del consumo"
+???+ Abstract "Informe Estimación del consumo"
     ### Informe Estimación del consumo
  
 
