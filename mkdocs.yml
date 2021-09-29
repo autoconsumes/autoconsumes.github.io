@@ -1,6 +1,5 @@
 site_name: E3. Estudios de Eficiencia Energetica.
-site_url: https://autoconsumes.github.io/
-
+site_url: https://eee.solar
 theme:
   name: material
   language: es
