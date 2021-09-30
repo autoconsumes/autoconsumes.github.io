@@ -165,7 +165,9 @@ de la energía hidráulica útil (es decir, H f < 0,1H TE ).
   Eficiencia de la instalación en condiciones reales de trabajo para el período de diseño, de
   acuerdo con la ecuación:
   
-  $PR=\frac{E_D G_{CEM}}{G_{dm}(\alpha, \beta) P_{mp}}$
+  $PR=\frac{E_D \cdot G_{CEM}}{G_{dm}(\alpha, \beta) \cdot P_{mp}}$
+  
+  
 
 
 
@@ -179,36 +181,36 @@ $E_D$:Cosumo expresado en kWh/dia
 
 
 
-* 
-  Este factor considera las pérdidas en la eficiencia energética debido a:
+
+Este factor considera las pérdidas en la eficiencia energética debido a:
+
+* La temperatura.
+
+* El cableado.
+
+* Las pérdidas por dispersión de parámetros y suciedad.
+
+* Las pérdidas por errores en el seguimiento del punto de máxima potencia.
+
+* La eficiencia energética, 0 rb , de otros elementos en operación como el regulador,
+
+* batería, etc.
+
+* – La eficiencia energética del inversor, 0 inv .
+
+* – Otros.
+
   
-  * La temperatura.
+
   
-  * El cableado.
+
   
-  * Las pérdidas por dispersión de parámetros y suciedad.
-  
-  * Las pérdidas por errores en el seguimiento del punto de máxima potencia.
-  
-  * La eficiencia energética, 0 rb , de otros elementos en operación como el regulador,
-  
-  * batería, etc.
-  
-  * – La eficiencia energética del inversor, 0 inv .
-  
-  * – Otros.
-  
-    
-  
-    
-  
-    
-  
-    Valores típicos son, en sistemas con inversor, $PR \approx 0,7$ y, con inversor y batería, $PR \approx 0,6$. A
-    efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor $PR = 0,7$ y con
-    inversor y batería $PR = 0,6$. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
-    desglosando los diferentes factores de pérdidas utilizados para su estimación.
-    En caso de acoplo directo de cargas al generador (por ejemplo, una bomba), se
+
+  Valores típicos son, en sistemas con inversor, $PR \approx 0,7$ y, con inversor y batería, $PR \approx 0,6$. A
+  efectos de cálculo y por simplicidad, se utilizarán en sistemas con inversor $PR = 0,7$ y con
+  inversor y batería $PR = 0,6$. Si se utilizase otro valor de PR, deberá justificarse el valor elegido
+  desglosando los diferentes factores de pérdidas utilizados para su estimación.
+  En caso de acoplo directo de cargas al generador (por ejemplo, una bomba), se
 
 
 
@@ -251,12 +253,12 @@ aproximada:
 
 Deberán presentarse los siguientes datos:
 
-* G dm (0)
+* $G_{dm} (0)$
   Obtenida a partir de alguna de las siguientes fuentes:
   – Instituto Nacional de Meteorología
   – Organismo autonómico oficial
 
-* G dm ( " ,  )
+* $G_{dm} (\alpha ,\beta  )$
   Calculado a partir de la expresión:
 
   ![image-20210927141736481](Instalacion_FV.assets/image-20210927141736481.png)

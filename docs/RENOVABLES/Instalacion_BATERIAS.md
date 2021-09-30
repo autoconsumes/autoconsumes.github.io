@@ -5,7 +5,7 @@
 ??? Abstract "Informe Dimensionado del sistema"
 
     !!! Warning "Personalize su informe "
-    
+
     [Edite el modelo excel ($t_{carga}\leq 15s.$) ![Placeholder](./img/e_A_FV.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV){ .md-button }
 
 

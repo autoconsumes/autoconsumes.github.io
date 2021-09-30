@@ -1,10 +1,10 @@
-# Estudio de Viabilidad
+# Viabilidad ECONÓMICA
 
 ## Informes
 
 ???+ Abstract "Informe VIABILIDAD ECONÓMICA"
     ### Informe VIABILIDAD ECONÓMICA
-    !!! Warning "Personalize su informe "
+​    !!! Warning "Personalize su informe "
 
     [Edite el modelo excel ($t_{carga}\leq 15s.$) ![Placeholder](./img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
 
