@@ -5,16 +5,7 @@
 ???+ Abstract "Informe VIABILIDAD ECONÓMICA"
     [![Placeholder](../img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
 
-
-
-
-
-
-
-
 ## Valor tiempo del dinero
-
-
 
 El **valor del dinero en el tiempo** (en inglés, *Time Value of Money*, abreviado usualmente como *TVM*) es un concepto [económico](https://es.wikipedia.org/wiki/Economía) basado en la premisa de que un [inversor](https://es.wikipedia.org/wiki/Inversión) prefiere recibir un pago de una suma fija de [dinero](https://es.wikipedia.org/wiki/Dinero) hoy, en lugar de recibir el mismo [valor nominal](https://es.wikipedia.org/wiki/Valor_nominal) en una determinada fecha futura. Esta preferencia se debe a que, si el  inversor recibe el dinero hoy, podría re invertir el dinero para obtener un monto mayor en la fecha , debido al [interés](https://es.wikipedia.org/wiki/Interés) que genera dicha inversión.
 
