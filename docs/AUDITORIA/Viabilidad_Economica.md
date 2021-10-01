@@ -3,6 +3,8 @@
 ## Informes
 
 ???+ Abstract "Informe VIABILIDAD ECONÓMICA"
+    !!! Warning "Editar informe ($t_{1^a\ carga}\leq 15s.$) "
+
     [![Placeholder](../img/e_A_FINANCIACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FINANCIACION){ .md-button }
 
 ## Valor tiempo del dinero
@@ -10,8 +12,6 @@
 El **valor del dinero en el tiempo** (en inglés, *Time Value of Money*, abreviado usualmente como *TVM*) es un concepto [económico](https://es.wikipedia.org/wiki/Economía) basado en la premisa de que un [inversor](https://es.wikipedia.org/wiki/Inversión) prefiere recibir un pago de una suma fija de [dinero](https://es.wikipedia.org/wiki/Dinero) hoy, en lugar de recibir el mismo [valor nominal](https://es.wikipedia.org/wiki/Valor_nominal) en una determinada fecha futura. Esta preferencia se debe a que, si el  inversor recibe el dinero hoy, podría re invertir el dinero para obtener un monto mayor en la fecha , debido al [interés](https://es.wikipedia.org/wiki/Interés) que genera dicha inversión.
 
 Muchos autores relacionan erróneamente el "valor del dinero en el tiempo" con la inflación. Dado que como se explica anteriormente, el  inversor podría encontrarse en un contexto sin inflación y realizar una  inversión para obtener un interés. Y si bien la inflación probablemente  influya en el valor del interés que genere la inversión (siendo mayor  cuanto más grande sea la inflación) aún con inflación nula las  inversiones se realizan con una determinada tasa de interés.
-
-
 
 ### Cálculos
 

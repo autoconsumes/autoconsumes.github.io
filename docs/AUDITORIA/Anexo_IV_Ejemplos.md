@@ -4,13 +4,13 @@
 ???+ Abstract "InformeCompensación de excedentes (diario)"
     !!! Warning "Editar informe ($t_{1^a\ carga}\leq 15s.$) "
     
-    [![Placeholder](../img/e_AUTOCONSUMO_COMPENSACION.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_AUTOCONSUMO_COMPENSACION){ .md-button }
+    [![Placeholder](../img/e_AUTOCONSUMO_COMPENSACION.png)](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_AUTOCONSUMO_COMPENSACION){ .md-button }
 
 
 ???+ Abstract "InformeCompensación de excedentes (anual)"
     !!! Warning "Editar informe ($t_{1^a\ carga}\leq 15s.$) "
     
-    [![Placeholder](./img/e_A_COMPENSACION_ANUAL.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_COMPENSACION_ANUAL){ .md-button }
+    [![Placeholder](../img/e_A_COMPENSACION_ANUAL.png)](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_COMPENSACION_ANUAL){ .md-button }
 
 ## Introduccion
 En este anexo se presentan ejemplos de varias configuraciones de instalaciones de autoconsumo

@@ -11,7 +11,7 @@
 ???+ Abstract "Analisis curva de carga"
     !!! Warning "Editar informe ($t_{1^a\ carga}\leq 15s.$) "
 
-    [![Placeholder](./img/e_A_CARGA.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_CARGA){ .md-button }
+    [![Placeholder](../img/e_A_CARGA.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_CARGA){ .md-button }
 
 ## 1. Objeto
 
