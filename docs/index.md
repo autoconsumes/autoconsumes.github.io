@@ -1,38 +1,18 @@
 # 
-<figure>
-  <img src="./img/ico_solar.svg" width="50" />
-</figure>
+=== "![Placeholder](img/ico_manohojas.svg){ width="40" } Autoconsumo "
 
-## Ingenieria.
-Estudios de Eficiencia Energética y Autoconsumo
+    !!! info  "[![Placeholder](img/ico_solar.svg){ width="40" }FV](./RENOVABLES/Instalacion_FV){ .md-button }"
+    !!! info  "[![Placeholder](img/ico_eolica.svg){ width="40" } EOLICA](./RENOVABLES/Instalacion_EOLICA.md){ .md-button }"
+    !!! info  "[![Placeholder](img/ico_bateria.svg){ width="40" }BATERIAS](./RENOVABLES/Instalacion_BATERIAS.md){ .md-button }"
 
-```
-=== "C"
+=== "![Placeholder](img/ico_engranajes.svg){ width="40" } Auditoria "
 
-    ``` c
-    #include <stdio.h>
+    !!! info "[Compensación de excedentes](./AUDITORIA/Anexo_IV_Ejemplos.md){ .md-button }"
+    !!! info  "[La Factura de la luz](./AUDITORIA/Factura_Luz.md){ .md-button }"
+    
+    !!! info  "[Viabilidad Economica](./AUDITORIA/Viabilidad_Economica.md){ .md-button }"
 
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
 
-=== "C++"
 
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
-```
-
-!!! info "[**Mecanismo de compensación de excedentes**](Anexo_IV_Ejemplos.md){ .md-button }"
-!!! info  "[**La Factura de la luz**](Factura_Luz.md){ .md-button }"
-!!! info  "[**Instalacion FV**](./RENOVABLES/Instalacion_FV.md){ .md-button }"
-!!! info  "[**Viabilidad Economica**](Viabilidad_Economica.md){ .md-button }"
-!!! Question  "[**Funcionamiento de la App**](app.md){ .md-button }"
+!!! Question  "[Ayuda](app.md){ .md-button }"
 

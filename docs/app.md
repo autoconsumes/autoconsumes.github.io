@@ -1,6 +1,6 @@
-# Funcionamiento de la aplicacion
+# Ayuda
 
-La aplicacion genera informes de estudios predeterminados a partir de archivos excel (.xlsx) editables desde  la web o con excel.
+En cada seccion puede generar informes de estudios predeterminados a partir de plantillas excel (.xlsx).
 
 ​    
 

@@ -1,4 +1,4 @@
-# Instalacion BATERIAS
+# Instalacion EOLICA
 
 ## Informes
 
