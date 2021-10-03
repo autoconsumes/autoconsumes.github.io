@@ -14,6 +14,5 @@
     !!! info  "[![Placeholder](img/ico_bateria.svg){ width="40" }BATERIAS](./RENOVABLES/Instalacion_BATERIAS.md){ .md-button }"
 
 
-
 !!! Question  "[Ayuda](app.md){ .md-button }"
 
