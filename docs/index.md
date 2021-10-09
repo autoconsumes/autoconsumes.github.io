@@ -1,8 +1,3 @@
----
-url:
-
-  direccion1: http://192.168.1.113:8080/f1
----
 
 ![Placeholder]({{ fig.url }}plot.png){ width="545" }
 

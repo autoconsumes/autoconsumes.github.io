@@ -16,7 +16,6 @@
   afectan al consumo final de electricidad: tamaño y composición de las familias (edad, formación,
   etc.), hábitos de los usuarios, capacidad para administrar la energía disponible, etc.
 
-![Placeholder](http://localhost:8080/plot.png)
 
 * 1.2 El objeto de este apartado es estimar la energía media diaria consumida por el sistema, E D
   (Wh/día).
