@@ -1,6 +1,7 @@
 mkdocs
 mkdocs-material
 mknotebooks
-
+# mkdocs-macros-plugin # no
+mkdocs-pdf-export-plugin
 
 

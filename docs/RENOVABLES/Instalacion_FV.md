@@ -2,16 +2,6 @@
 
 ## Informes
 
-???+ Abstract "Informe Dimensionado del sistema"
-
-    !!! Warning "Editar informe ($t_{1^a\ carga}\leq 15s.$)"
-    
-    [![Placeholder](../img/e_A_FV.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_FV){ .md-button }
-
-???+ Abstract "Informe Estimación del consumo"
-
-
-
 
 ## DIMENSIONADO DEL SISTEMA FOTOVOLTAICO 
 
@@ -25,6 +15,8 @@
   electrificación de viviendas, la tarea no resulta fácil pues intervienen multitud de factores que
   afectan al consumo final de electricidad: tamaño y composición de las familias (edad, formación,
   etc.), hábitos de los usuarios, capacidad para administrar la energía disponible, etc.
+
+![Placeholder](http://localhost:8080/plot.png)
 
 * 1.2 El objeto de este apartado es estimar la energía media diaria consumida por el sistema, E D
   (Wh/día).

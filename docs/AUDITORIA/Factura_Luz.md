@@ -1,3 +1,12 @@
+---
+url:
+  direccion: https://flaskimg-yzohicfcma-ew.a.run.app/
+  direccion: http://192.168.1.113:8080/
+  direccion1: http://192.168.1.113:8080/f1
+---
+
+
+
 # Factura de la luz
 
 ## Informes
@@ -14,7 +23,8 @@
     [![Placeholder](../img/e_A_CARGA.png){ loading=lazy }](https://eee1-uom5ariccq-ew.a.run.app/estudios/e_A_CARGA){ .md-button }
 
 ## 1. Objeto
-
+![Placeholder]({{ fig.url }}plot.png){ align=left }
+![Placeholder]({{ fig.url }}plot.png){ align=right }
 
 El Real Decreto-ley 1/2019, de 11 de enero 1 , modifica las competencias de la
 CNMC como autoridad reguladora nacional en relación a la metodología para el
@@ -39,6 +49,7 @@ A los efectos anteriores, para facilitar la compresión de todos los agentes, se
 procede en primer lugar, a enmarcar el contenido la Circular 3/2020 en el
 esquema general precios al que debe hacer frente un consumidor por el
 suministro de energía.
+![Placeholder]({{ fig.url }}plot.png)
 
 
 ## 2. Peajes y cargos
