@@ -18,8 +18,6 @@ url:
 === "Auditoria "
     !!! info  "[![Placeholder](img/ico_eolica.svg){ width="40" } EOLICA](./RENOVABLES/Instalacion_EOLICA.md){ .md-button }"
 === "![Placeholder](img/ico_bateria.svg){ width="15" } Personaliza "
-    hola caracola
-    <div id="wrap"><iframe id="frame" src="{{ fig.url }}"></iframe></div>fsdfasfdasd
 
     !!! info "[Compensación de excedentes](./AUDITORIA/Anexo_IV_Ejemplos.md){ .md-button }"
     !!! info  "[La Factura de la luz](./AUDITORIA/Factura_Luz.md){ .md-button }"

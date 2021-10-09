@@ -8,12 +8,15 @@ theme:
   favicon: assets/favicon.ico
   logo: assets/logo.svg
 plugins:
-  # - pdf-export
+  - pdf-export # ***
+  # - pdf-with-js  no
   - mknotebooks
   - search
   - macros:
       include_dir: snippets  
-#  icono "≡"
+  # - print-site
+
+      #  icono "≡"
 # https://analytics.google.com/analytics/web/?authuser=2#/p288143966/realtime/overview?params=_u..nav%3Dmaui
 extra:
   analytics:
