@@ -12,6 +12,7 @@ plugins:
   # - pdf-export:
   #     verbose: true
   # - mknotebooks
+  - mkdocs-video
   - search
   - macros:
       include_dir: snippets  
