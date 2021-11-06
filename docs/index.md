@@ -1,8 +1,9 @@
 #
 <center>
 [ :fontawesome-solid-solar-panel: Estudio gratuito](./Estudio_Tecnico/ET_GRATUITO.md){ .md-button .md-button--primary }
-![Placeholder](./img/Wind Energy - 3804.gif)
+
 </center>
+![Placeholder](./img/Wind Energy - 3804.gif)
 
 
 === ":material-solar-power: Renovables "
