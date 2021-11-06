@@ -1,20 +1,11 @@
-# Instalacion FV
+#
 
-## Informes
+![]({{ fig.url }}f00){ loading=lazy }
 
 
-## DIMENSIONADO DEL SISTEMA FOTOVOLTAICO 
 
-### I. Estimación del consumo diario de energía
-
-#### 1 Generalidades
-
-* 1.1 La estimación correcta de la energía consumida por el sistema fotovoltaico sólo es sencilla en
-  aquellas aplicaciones en las que se conocen exactamente las características de la carga (por
-  ejemplo, sistemas de telecomunicación). Sin embargo, en otras aplicaciones, como puede ser la
-  electrificación de viviendas, la tarea no resulta fácil pues intervienen multitud de factores que
-  afectan al consumo final de electricidad: tamaño y composición de las familias (edad, formación,
-  etc.), hábitos de los usuarios, capacidad para administrar la energía disponible, etc.
+* 1.1 La estimación correcta de la energía consumida por el sistema fotovoltaico sólo es sencilla en  aquellas aplicaciones en las que se conocen exactamente las características de la carga (por  ejemplo, sistemas de telecomunicación). Sin embargo, en otras aplicaciones, como puede ser la  electrificación de viviendas, la tarea no resulta fácil pues intervienen multitud de factores que  afectan al consumo final de electricidad: tamaño y composición de las familias (edad, formación,  etc.), hábitos de los usuarios, capacidad para administrar la energía disponible, etc.
+![]({{ fig.url }}f01){ loading=lazy }
 
 
 * 1.2 El objeto de este apartado es estimar la energía media diaria consumida por el sistema, E D
@@ -30,6 +21,7 @@
   Ah/día, L D , como:
 
   ![image-20210927135429747](Instalacion_FV.assets/image-20210927135429747.png)
+![]({{ fig.url }}f02){ loading=lazy }
 
 
   donde V NOM (V) es la tensión nominal del acumulador.
@@ -38,6 +30,7 @@
   de agua serán calculados por el instalador usando los métodos y herramientas que estime
   oportunos. En su defecto, el apartado 2 describe un procedimiento aproximado de cálculo que
   permite considerar las características dinámicas del pozo.
+![]({{ fig.url }}f03){ loading=lazy }
 
 #### 2 Bombeo de agua
 

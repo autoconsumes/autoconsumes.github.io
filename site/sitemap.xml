@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://eee.solar/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/app/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/AUDITORIA/Anexo_IV_Ejemplos/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/AUDITORIA/Factura_Luz/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/AUDITORIA/Viabilidad_Economica/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/RENOVABLES/Instalacion_BATERIAS/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/RENOVABLES/Instalacion_EOLICA/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eee.solar/RENOVABLES/Instalacion_FV%20copy/</loc>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eee.solar/RENOVABLES/Instalacion_FV/</loc>
-         <lastmod>2021-10-09</lastmod>
+         <lastmod>2021-10-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

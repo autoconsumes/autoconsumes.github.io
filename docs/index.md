@@ -1,10 +1,12 @@
+#
 
-![Placeholder]({{ fig.url }}plot.png){ width="545" }
 
 
 
 === "![Placeholder](img/ico_solar.svg){ width="15" }FV "
     === "Resumen "
+        ![Placeholder]({{ fig.url }}plot.png){ width="300" }
+
         ![Placeholder](./img/pdf1.png)
         ![Placeholder](./img/pdf2.png)
     === "Instalacion "
@@ -21,4 +23,8 @@
 
 
     !!! Question  "[Ayuda](app.md){ .md-button }"
+
+
+
+
 
