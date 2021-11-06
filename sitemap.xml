@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eee.solar/app/</loc>
-         <lastmod>2021-11-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://eee.solar/AUDITORIA/Anexo_IV_Ejemplos/</loc>
          <lastmod>2021-11-06</lastmod>
          <changefreq>daily</changefreq>
@@ -22,6 +17,11 @@
     </url>
     <url>
          <loc>https://eee.solar/AUDITORIA/Viabilidad_Economica/</loc>
+         <lastmod>2021-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eee.solar/AYUDAS/</loc>
          <lastmod>2021-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
