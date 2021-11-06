@@ -1,8 +1,8 @@
 site_name: E3. Estudios de Eficiencia Energetica.
 site_url: https://eee.solar
 theme:
-  # palette:
-  #   primary: light green
+  palette:
+    primary: light green
   name: material
   language: es
   favicon: assets/favicon.ico
@@ -36,7 +36,9 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.arithmatex:
       generic: true
-      
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
