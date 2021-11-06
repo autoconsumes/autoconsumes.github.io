@@ -1,8 +1,10 @@
-# Real Decreto 477/2021
+# RD 477/2021 
+
+Real Decreto 477/2021, de 29 de junio, por el que se aprueba la  concesión directa a las comunidades autónomas y a las ciudades de Ceuta y Melilla de ayudas para la ejecución de diversos programas de incentivos ligados al autoconsumo y al almacenamiento, con fuentes de energía  renovable, así como a la implantación de sistemas térmicos renovables en el sector residencial, en el marco del Plan de Recuperación,  Transformación y Resiliencia.
 
 ## TEXTO ORIGINAL
 
-I
+## I
 
 La pandemia provocada por la COVID-19 ha  supuesto una crisis económica, social y sanitaria. La magnitud del  desafío ha exigido una respuesta común a escala europea. Para dar  respuesta a medio plazo, se ha puesto en marcha un ambicioso Fondo de  Recuperación y Resiliencia para contribuir al proceso de reconstrucción  de las economías europeas en el mundo posterior a la pandemia y la  crisis económica causadas por la COVID-19.
 
@@ -28,7 +30,7 @@ En este contexto, el Mecanismo Europeo de  Recuperación y Resiliencia, establec
 
 Para dotar de mayor flexibilidad a las  administraciones públicas competentes, y con el objetivo de una gestión  eficaz del Plan de Recuperación, Transformación y Resiliencia es  necesario adoptar medidas que permitan reorganizar los recursos  existentes, priorizando las necesidades y el cumplimiento de objetivos a través de un instrumento de planificación estratégica, para la gestión y la mejor ejecución de los proyectos, y la canalización de las  inversiones o actuaciones que sea preciso realizar.
 
-II
+## II
 
 Dentro de las diez políticas palanca que  contempla el Plan de Recuperación, Transformación y Resiliencia, dos de  las treinta líneas de acción son la componente 7: Despliegue e  integración de las energías renovables; y la componente 8:  Infraestructuras eléctricas, promoción de redes inteligentes y  despliegue de la flexibilidad y el almacenamiento. Estas componentes,  que desarrollan y anticipan la implementación de las medidas del PNIEC  anteriormente mencionadas, incluyen, entre otros, el impulso al  autoconsumo con fuentes de energía renovable en distintos sectores y  para distintos tipos de beneficiarios, el apoyo al uso de las energías  renovables dentro de las aplicaciones térmicas del sector residencial,  el desarrollo de los sistemas de almacenamiento vinculados a  instalaciones de energías renovables y el almacenamiento detrás del  contador.
 
@@ -36,23 +38,23 @@ Este Plan constituye uno de los elementos  esenciales para el desarrollo de los 
 
 Por ello, a fin de promover el despliegue de  las energías renovables, tanto térmicas como eléctricas, en los  distintos sectores consumidores, fomentar un mayor control del consumo  mediante el desarrollo de los sistemas de almacenamiento detrás del  contador y el impulso a la industria y al sector empresarial asociado,  se promueve este real decreto, que tiene por objeto regular la concesión directa, con carácter extraordinario, y por razones de interés público, social y económico, de ayudas a las comunidades autónomas y ciudades de Ceuta y Melilla, así como la aprobación de los seis programas de  incentivos de autoconsumo, almacenamiento y usos térmicos de energías  renovables que se indican a continuación:
 
-Programa de incentivos 1: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en el  sector servicios, con o sin almacenamiento.
+- Programa de incentivos 1: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en el  sector servicios, con o sin almacenamiento.
 
-Programa de incentivos 2: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en otros sectores productivos de la economía, con o sin almacenamiento.
+- Programa de incentivos 2: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en otros sectores productivos de la economía, con o sin almacenamiento.
 
-Programa de incentivos 3: Incorporación de  almacenamiento en instalaciones de autoconsumo, con fuentes de energía  renovable, ya existentes en el sector servicios y otros sectores  productivos.
+- Programa de incentivos 3: Incorporación de  almacenamiento en instalaciones de autoconsumo, con fuentes de energía  renovable, ya existentes en el sector servicios y otros sectores  productivos.
 
-Programa de incentivos 4: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en el  sector residencial, las administraciones públicas y el tercer sector,  con o sin almacenamiento.
+- Programa de incentivos 4: Realización de  instalaciones de autoconsumo, con fuentes de energía renovable, en el  sector residencial, las administraciones públicas y el tercer sector,  con o sin almacenamiento.
 
-Programa de incentivos 5: Incorporación de  almacenamiento en instalaciones de autoconsumo, con fuentes de energía  renovable, ya existentes en el sector residencial, las administraciones  públicas y el tercer sector.
+- Programa de incentivos 5: Incorporación de  almacenamiento en instalaciones de autoconsumo, con fuentes de energía  renovable, ya existentes en el sector residencial, las administraciones  públicas y el tercer sector.
 
-Programa de incentivos 6: Realización de instalaciones de energías renovables térmicas en el sector residencial.
+- Programa de incentivos 6: Realización de instalaciones de energías renovables térmicas en el sector residencial.
 
 Todos estos programas serán financiados con los fondos procedentes del Mecanismo de Recuperación y Resiliencia, al  estar contemplados en el Plan de Recuperación, Transformación y  Resiliencia, y se corresponden con las tipologías de inversión  contempladas en el mismo respecto a la inversión de su Componente 7  (C7.I1), para el desarrollo de energías renovables innovadoras,  integradas en la edificación y en los procesos productivos, así como, en cuanto al almacenamiento con fuentes de energía renovable, a la  inversión de su Componente 8 (C8.I1), despliegue del almacenamiento  energético, impulso del almacenamiento detrás del contador e integrado  sectorialmente, que se ejecuta conjuntamente con la anterior. El buen  desarrollo del Plan de Recuperación, Transformación y Resiliencia se  evalúa mediante los hitos y objetivos asignados a cada inversión y cada  componente, aprobados en el marco del Plan, que son condición  indispensable para el libramiento de los correspondientes fondos a  España.
 
 Para el cumplimiento de los objetivos  previstos por las actuaciones anteriormente referidas del Plan de  Recuperación, Transformación y Resiliencia, existe crédito  presupuestario con cargo a la aplicación presupuestaria 23.50.420B.748  «Al IDAE. Para la promoción de energías renovables, eficiencia  energética y movilidad sostenible. Mecanismo de Recuperación y  Resiliencia» de la Ley 11/2020, de 30 de diciembre, de Presupuestos  Generales del Estado para el año 2021. Dentro de este crédito se prevé  destinar un presupuesto de 1.120 millones de euros destinados a  instalaciones de autoconsumo (900 millones, con una dotación inicial  de 450 millones) y almacenamiento detrás del contador (220 millones, con una dotación inicial de 110 millones), además de un presupuesto de 200  millones para un programa específico para realización de instalaciones  de energías renovables térmicas en el sector residencial, que se dotará  inicialmente con 100 millones de euros.
 
-III
+## III
 
 La incorporación del autoconsumo con  fuentes de energía renovable en los sectores productivos junto con su  incentivación en edificios públicos y en el sector residencial, supondrá una contribución significativa para alcanzar los objetivos de  despliegue de las energías renovables, optimizando su gestión y evitando ineficiencias del sistema al unir producción y demanda. En paralelo, es necesario impulsar las aplicaciones térmicas de las energías renovables en el sector residencial para abastecer aquellas necesidades que no  están cubiertas con la generación eléctrica. De esta forma se contribuye a cumplir los objetivos fijados en la Directiva (UE) 2018/2001, en la  Estrategia de Almacenamiento energético, en el PNIEC y también a poner  en práctica la Estrategia de Descarbonización a Largo Plazo para  movilizar inversiones en la implantación de tecnologías limpias, basadas en fuentes renovables.
 
@@ -64,7 +66,7 @@ Los nuevos programas de incentivos que son  aprobados por este real decreto tend
 
 Las actuaciones financiadas por este real  decreto atenderán al principio de «no causar daño significativo» a  ninguno de los objetivos medioambientales establecidos en el Reglamento  (UE) 2020/852 del Parlamento Europeo y del Consejo, de 18 de junio  de 2020, relativo al establecimiento de un marco para facilitar las  inversiones sostenibles, y por el que se modifica el Reglamento (UE)  2019/2088.
 
-IV
+## IV
 
 Los criterios que sirven de base para la  distribución de los correspondientes créditos, así como para su entrega  han sido consensuados con las comunidades autónomas y las ciudades de  Ceuta y Melilla en la Conferencia Sectorial de Energía celebrada el 11  de enero de 2021, así como en la celebrada el 12 de mayo de 2021.  Asimismo, las comunidades autónomas y ciudades de Ceuta y Melilla fueron informadas de los costes indirectos que podrán ser financiados con  cargo a dichos créditos, en la medida en que no sean de naturaleza  recurrente y se encuentren dentro del horizonte temporal de ejecución  del Mecanismo de Recuperación y Resiliencia y el Plan de Recuperación,  Transformación y Resiliencia, y tengan como fin la implantación y  gestión de los programas de incentivos aprobados por este real decreto.
 
@@ -82,7 +84,7 @@ Por tanto, este real decreto tiene por objeto la concesión directa de subvencio
 
 Asimismo, las subvenciones reguladas por este real decreto tienen carácter singular derivado de la urgencia de  reactivar la economía y aprovechar la oportunidad que supone la  financiación de las actuaciones subvencionables, incluidas en el Plan de Recuperación, Transformación y Resiliencia, con los fondos de Mecanismo recuperación y resiliencia, así como de la necesidad de minimizar la  dependencia, a nivel nacional, de los combustibles fósiles en la  producción energética, con gran repercusión en la competitividad y  mejora de las condiciones económicas y energéticas de las economías  familiares, teniendo en cuenta, a su vez, la necesidad de implementar  diversos instrumentos que incentivan modelos alternativos de producción y almacenamiento con fuentes de energía renovable. En consecuencia, la  singularidad también se fundamenta en criterios de oportunidad, que  implican la exigencia de establecer las actuaciones más idóneas para  alcanzar los objetivos de «descarbonización» previstos.
 
-V
+## V
 
 Los programas de incentivos 1, 2 y 3 están  dirigidos a los destinatarios últimos que realicen alguna actividad  económica por la que ofrezcan bienes y/o servicios en el mercado, por lo que las ayudas objeto de los mismos estarán sometidas a los requisitos y límites establecidos en el Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías  de ayudas compatibles con el mercado interior en aplicación de los  artículos 107 y 108 del Tratado, aplicándose la exención por categoría  de ayudas para la protección del medio ambiente (Sección 7), sin  perjuicio del resto de disposiciones tanto de derecho nacional como de  la Unión Europea que pudieran resultar de aplicación, particularmente  las que se aprueben en el ámbito de la ejecución y gestión tanto del  Mecanismo de Recuperación y Resiliencia establecido por el Reglamento  (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero  de 2021, como del Plan de Recuperación, Transformación y Resiliencia.
 
@@ -90,7 +92,7 @@ El Reglamento (UE) 651/2014 establece que las ayudas a la inversión para la pro
 
 Los programas de incentivos 4, 5 y 6 están  dirigidos principalmente a los destinatarios últimos que no realicen  actividades económicas, por las que ofrezcan bienes y/o servicios en el  mercado, incluyendo, entre los mismos, organismos y entidades públicas  que cumplan con los requisitos establecidos por la Comisión Europea para ser entidades no generadoras de actividad económica. Por ello, las  ayudas objeto de dichos programas no tendrán la consideración de ayudas  de estado a los efectos de la aplicación de la normativa europea  establecida al respecto, sin perjuicio del resto de disposiciones tanto  de derecho nacional como de la Unión Europea que pudieran resultar de  aplicación, particularmente las que se aprueben en el ámbito de la  ejecución y gestión tanto del Mecanismo de Recuperación y Resiliencia  como del Plan de Recuperación, Transformación y Resiliencia. No  obstante, se incluyen también entre los potenciales beneficiarios de los programas de incentivos 4, 5 y 6, personas físicas que realicen alguna  actividad económica, por la que ofrezcan bienes y/o servicios en el  mercado (autónomos), en cuyo caso estarán sometidas a los requisitos y  límites establecidos en el Reglamento (UE) n.° 1407/2013 de la Comisión, de 18 de diciembre de 2013, relativo a la aplicación de los  artículos 107 y 108 del Tratado de Funcionamiento de la Unión Europea a  las ayudas de *minimis*.
 
-VI
+## VI
 
 El marco regulador de estas ayudas resulta  conforme con la jurisprudencia constitucional consolidada en materia de  ayudas y subvenciones que comenzó a articularse con la Sentencia del  Tribunal Constitucional 13/1992, de 6 de febrero, y que, recientemente,  se ha perfilado con las sentencias 9/2017, de 19 de enero, y 62/2018  y 64/2018, de 7 de junio.
 
