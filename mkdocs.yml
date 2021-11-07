@@ -7,6 +7,9 @@ theme:
   language: es
   favicon: assets/favicon.ico
   logo: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 plugins:
   # - pdf-export # *** ERROR: Failed to load image at 'http://yoursite.com/the.pdf':
   # - pdf-export:
