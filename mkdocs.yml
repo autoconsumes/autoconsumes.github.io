@@ -2,7 +2,7 @@ site_name: Asolear. Energia Renovable.
 site_url: https://asolear.com
 theme:
   palette:
-    primary: light green
+    primary: indigo
   name: material
   language: es
   favicon: assets/favicon.ico
@@ -33,6 +33,7 @@ extra:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
