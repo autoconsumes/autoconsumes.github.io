@@ -12,7 +12,6 @@
 
     !!! info "[Compensación de excedentes](./AUDITORIA/Anexo_IV_Ejemplos.md){ .md-button }"
     !!! info  "[La Factura de la luz](./AUDITORIA/Factura_Luz.md){ .md-button }"
-
     !!! info  "[Viabilidad Economica](./AUDITORIA/Viabilidad_Economica.md){ .md-button }"
 
 

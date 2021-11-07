@@ -6,9 +6,8 @@
 </video>
 </div>
 
-!!! Warning "[![Placeholder](./img/solar-cells-g5e1f38d9d_640.png){ width="80"; align=left } :fontawesome-solid-piggy-bank:  ESTUDIO GRATUITO. De la instalacion optima para su empresa.](./Estudio_Tecnico/ET_GRATUITO.md){ .md-button }"
+!!! Warning "[![Placeholder](./img/solar-cells-g5e1f38d9d_640.png){ width="80"; align=left } :fontawesome-solid-piggy-bank:  ESTUDIO GRATUITO de la instalacion optima para comunidades, negocios, comercios, etc.](./Estudio_Tecnico/ET_GRATUITO.md){ .md-button }"
 
-!!! Info ":octicons-mail-16: Lo recibira inmediatamente en su correo"
 
 
 
